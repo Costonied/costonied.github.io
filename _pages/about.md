@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: IT Lead | Team Lead | CTO | Software Engineer
+subtitle: IT Lead | Team Lead | CTO | Software Engineer | Mentor
 
 profile:
   align: right
