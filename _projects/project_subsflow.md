@@ -11,13 +11,15 @@ related_publications: false
 <p>Project website: <a target="_blank" href="https://subsflow.io/">subsflow.io</a></p>
 
 #### Description
+
 _Tracking subscriptions becomes simple and convenient.
 Enter your subscription details, track payment deadlines, and receive timely notifications.
 Never miss a payment deadline!_
 
 #### My project roles
-* Co-founder
-* Software Backend Engineer
+
+- Co-founder
+- Software Backend Engineer
 
 #### Project stack
 
