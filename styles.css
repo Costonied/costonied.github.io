@@ -275,6 +275,41 @@ h1 strong {
 }
 
 /* ===========================================================
+   Home page — fit the viewport, no scroll on mobile
+   =========================================================== */
+body.home {
+    min-height: 100vh;
+    min-height: 100dvh; /* accounts for mobile browser toolbars */
+}
+
+@media (max-width: 480px) {
+    body.home {
+        height: 100dvh;
+        overflow: hidden; /* the home card always fits — never scrolls */
+        padding: 16px;
+    }
+
+    body.home .card {
+        padding: 24px 22px;
+    }
+
+    body.home .avatar {
+        width: 96px;
+        height: 96px;
+        margin-bottom: 16px;
+    }
+
+    body.home h1 {
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+    }
+
+    body.home .description {
+        margin-bottom: 22px;
+    }
+}
+
+/* ===========================================================
    Accessibility — respect reduced motion
    =========================================================== */
 @media (prefers-reduced-motion: reduce) {
